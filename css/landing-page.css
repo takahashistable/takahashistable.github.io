@@ -116,7 +116,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/a01.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -173,7 +173,7 @@ p.copyright {
  * based on: http://liginc.co.jp/web/html-css/html/86739
  */
 table.company {
-    width: 500px;
+    /*width: 500px;*/
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0px 1px;
@@ -189,7 +189,7 @@ table.company th {
     background: #C99;
     vertical-align: middle;
     text-align: left;
-    width: 200px;
+    /*width: 200px;*/
     overflow: visible;
     position: relative;
     color: #fff;
@@ -235,3 +235,17 @@ table.company td {
     padding-left: 20px;
 }
 
+/*
+ * google maps
+ */
+.maps {
+    width: 500px;
+    height: 500px;
+}
+
+@media(max-width:767px) {
+    .maps {
+        width: 350px;
+        height: 350px;
+}
+}
